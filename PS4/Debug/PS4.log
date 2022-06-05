@@ -1,0 +1,40 @@
+﻿  Main.cpp
+C:\Users\andyc\Documents\code\Data structures project\PS4\PS4\BinaryTreeNode.h(107,1): warning C4297: 'BinaryTreeNode<T>::~BinaryTreeNode': function assumed not to throw an exception but does
+          with
+          [
+              T=int
+          ]
+C:\Users\andyc\Documents\code\Data structures project\PS4\PS4\BinaryTreeNode.h(107,1): message : destructor or deallocator has a (possibly implicit) non-throwing exception specification
+C:\Users\andyc\Documents\code\Data structures project\PS4\PS4\BinaryTreeNode.h(93): message : while compiling class template member function 'BinaryTreeNode<T>::~BinaryTreeNode(void)'
+          with
+          [
+              T=int
+          ]
+C:\Users\andyc\Documents\code\Data structures project\PS4\PS4\BinaryTreeNode.h(208): message : see reference to function template instantiation 'BinaryTreeNode<T>::~BinaryTreeNode(void)' being compiled
+          with
+          [
+              T=int
+          ]
+C:\Users\andyc\Documents\code\Data structures project\PS4\PS4\BinarySearchTreeIterator.h(46): message : see reference to class template instantiation 'BinaryTreeNode<T>' being compiled
+          with
+          [
+              T=int
+          ]
+C:\Users\andyc\Documents\code\Data structures project\PS4\PS4\BinarySearchTreeIterator.h(41): message : while compiling class template member function 'BinarySearchTreeIterator<T> &BinarySearchTreeIterator<T>::operator ++(void)'
+          with
+          [
+              T=int
+          ]
+C:\Users\andyc\Documents\code\Data structures project\PS4\PS4\Main.cpp(151): message : see reference to function template instantiation 'BinarySearchTreeIterator<T> &BinarySearchTreeIterator<T>::operator ++(void)' being compiled
+          with
+          [
+              T=int
+          ]
+C:\Users\andyc\Documents\code\Data structures project\PS4\PS4\Main.cpp(151): message : see reference to class template instantiation 'BinarySearchTreeIterator<T>' being compiled
+          with
+          [
+              T=int
+          ]
+C:\Users\andyc\Documents\code\Data structures project\PS4\PS4\BinarySearchTree.h(64): warning C4717: 'BinarySearchTree<int>::begin': recursive on all control paths, function will cause runtime stack overflow
+C:\Users\andyc\Documents\code\Data structures project\PS4\PS4\BinarySearchTreeIterator.h(38): warning C4717: 'BinarySearchTreeIterator<int>::operator*': recursive on all control paths, function will cause runtime stack overflow
+  PS4.vcxproj -> C:\Users\andyc\Documents\code\Data structures project\PS4\Debug\PS4.exe
